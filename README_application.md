@@ -4,7 +4,7 @@ This repo is to provide a list of literature regarding Deep Learning on Graphs f
 ## [Content](#content)
 
 <table>
-<tr><td colspan="2"><a href="#Knowledge Base Completion">1. Survey</a></td></tr> 
+<tr><td colspan="2"><a href="#knowledge-base-completion">1. Survey</a></td></tr> 
 </table>
 
 - ## Knowledge Graph/Knowledge Base
