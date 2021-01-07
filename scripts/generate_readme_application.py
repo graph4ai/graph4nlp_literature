@@ -267,10 +267,10 @@ class Container:
                 app_cnt += 1
 
             table_content += app_super_content
-        output = "## [Content](#content)\n\n" \
+        output = "## [Content: ({})](#content)\n\n" \
                  "<table>\n" \
                  "{}" \
-                 "</table>\n".format(table_content)
+                 "</table>\n".format(self.tree.cnt, table_content)
         return output
 
     def save(self):
