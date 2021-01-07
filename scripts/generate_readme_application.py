@@ -107,7 +107,7 @@ class Container:
             if self.type != "root" and self.cnt == 0:
                 return output
             if self.type == "application_super":
-                output += "- ## " + self.value + "\n"
+                output += "- ## [" + self.value + "](#content)\n"
             elif self.type == "application":
                 output += "\t - ### " + self.value + "\n"
             elif self.type == "venue_super":
@@ -247,15 +247,14 @@ class Container:
 
         table_content_str = ""
         for app_super in self.tree.children:
-            app_super_content = '''<tr><td colspan="2"><a href="#Knowledge Graph/Knowledge Base">1. Survey</a></td></tr> \n'''
+            node_id = app_super.value.lower().replace("\\", "").replace(" ", "-")
+            app_super_content = '''<tr><td colspan="2"><a href="#{}">1. {}</a></td></tr> \n'''.format(node_id, app_super.value)
             table_content_str += app_super_content
-            break
         output = "## [Content](#content)\n\n" \
                  "<table>\n" \
                  "{}" \
                  "</table>\n".format(table_content_str)
         return output
-        pass
 
     def save(self):
         output_str = self.readme_content
