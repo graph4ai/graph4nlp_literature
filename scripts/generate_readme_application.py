@@ -266,6 +266,10 @@ class Container:
                     app_node_content = ""
                 app_cnt += 1
 
+            if app_node_content != "":
+                app_node_content = "\n<tr>\n{}\n</tr>\n".format(app_node_content)
+                app_super_content += app_node_content
+
             table_content += app_super_content
         output = "## [Content: ({})](#content)\n\n" \
                  "<table>\n" \
