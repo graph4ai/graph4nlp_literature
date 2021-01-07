@@ -248,19 +248,23 @@ class Container:
         table_content = ""
         for app_super_cnt, app_super in enumerate(self.tree.children):
             node_id = app_super.value.lower().replace("/", "").replace(" ", "-")
-            app_super_content = '''<tr><td colspan="2"><a href="#{}">{}. {}</a></td></tr> \n'''.format(node_id,
-                                            app_super_cnt + 1, app_super.value)
+            app_super_content = '''<tr><td colspan="2"><a href="#{}">{}. {}: ({})</a></td></tr> \n'''.format(node_id,
+                                            app_super_cnt + 1, app_super.value, app_super.cnt)
             app_node_content = ""
-            for app_id, app in enumerate(app_super.children):
+            app_cnt = 0
+            for app in app_super.children:
+                if app.cnt == 0:
+                    continue
                 node_app_id = app.value.lower().replace("/", "").replace(" ", "-")
-                app_content = '''<td>&emsp;<a href="#{}">{}.{} {}</a></td>'''.format(
-                    node_app_id, app_super_cnt + 1, app_id + 1, app.value
+                app_content = '''<td>&emsp;<a href="#{}">{}.{} {}: {}</a></td>'''.format(
+                    node_app_id, app_super_cnt + 1, app_cnt + 1, app.value, app.cnt
                 )
                 app_node_content += app_content
-                if (app_id + 1) % 2 == 0:
+                if (app_cnt + 1) % 2 == 0:
                     app_node_content = "\n<tr>\n{}\n</tr>\n".format(app_node_content)
                     app_super_content += app_node_content
                     app_node_content = ""
+                app_cnt += 1
 
             table_content += app_super_content
         output = "## [Content](#content)\n\n" \
