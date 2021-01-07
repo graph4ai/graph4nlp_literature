@@ -109,7 +109,7 @@ class Container:
             if self.type == "application_super":
                 output += "- ## [" + self.value + "](#content)\n"
             elif self.type == "application":
-                output += "\t - ### " + self.value + "\n"
+                output += "\t - ### [" + self.value + "](#content)\n"
             elif self.type == "venue_super":
                 output += "\t\t* #### Year: " + self.value + "\n"
 
@@ -245,15 +245,25 @@ class Container:
 
     def generate_outline_table(self):
 
-        table_content_str = ""
-        for app_super in self.tree.children:
-            node_id = app_super.value.lower().replace("\\", "").replace(" ", "-")
-            app_super_content = '''<tr><td colspan="2"><a href="#{}">1. {}</a></td></tr> \n'''.format(node_id, app_super.value)
-            table_content_str += app_super_content
+        table_content = ""
+        for app_super_cnt, app_super in enumerate(self.tree.children):
+            node_id = app_super.value.lower().replace("/", "").replace(" ", "-")
+            app_super_content = '''<tr><td colspan="2"><a href="#{}">{}. {}</a></td></tr> \n'''.format(node_id,
+                                            app_super_cnt + 1, app_super.value)
+            app_node_content = ""
+            for app_id, app in enumerate(app_super.children):
+                node_app_id = app.value.lower().replace("/", "").replace(" ", "-")
+                app_content = '''<td>&emsp;<a href="#{}">{}.{} {}</a></td>'''.format(
+                    node_app_id, app_super_cnt + 1, app_id + 1, app.value
+                )
+                app_node_content += app_content
+            app_node_content = "\n<tr>\n{}\n</tr>\n".format(app_node_content)
+
+            table_content += app_super_content + app_node_content
         output = "## [Content](#content)\n\n" \
                  "<table>\n" \
                  "{}" \
-                 "</table>\n".format(table_content_str)
+                 "</table>\n".format(table_content)
         return output
 
     def save(self):
