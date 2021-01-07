@@ -115,7 +115,7 @@ class Container:
 
             for node in self.children:
                 if isinstance(node, Paper):
-                    output += "\t\t\t[[{}] \"{}\"]({}) \n\n ".format(node.venue, node.title.strip(), node.link.strip())
+                    output += "\t\t\t[[{}] {}]({}) \n\n ".format(node.venue, node.title.strip(), node.link.strip())
                 else:
                     output += str(node)
             return output
