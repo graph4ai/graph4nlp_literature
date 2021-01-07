@@ -257,9 +257,12 @@ class Container:
                     node_app_id, app_super_cnt + 1, app_id + 1, app.value
                 )
                 app_node_content += app_content
-            app_node_content = "\n<tr>\n{}\n</tr>\n".format(app_node_content)
+                if (app_id + 1) % 2 == 0:
+                    app_node_content = "\n<tr>\n{}\n</tr>\n".format(app_node_content)
+                    app_super_content += app_node_content
+                    app_node_content = ""
 
-            table_content += app_super_content + app_node_content
+            table_content += app_super_content
         output = "## [Content](#content)\n\n" \
                  "<table>\n" \
                  "{}" \
