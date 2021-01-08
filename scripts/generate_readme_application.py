@@ -77,31 +77,6 @@ class Container:
         def __eq__(self, other):
             return self.value == other
 
-        def convert(self):
-            assert self.type == "root"
-            output = "- ## Knowledge Graph/Knowledge Base\n" \
-                     "{knowledge} \n" \
-                     "- ## Information Extraction\n" \
-                     "{ie} \n" \
-                     "- ## Sequence Labeling\n" \
-                     "{label} \n" \
-                     "- ## Natural Language Generation\n" \
-                     "{nlg} \n" \
-                     "- ## Question Answering\n" \
-                     "{Parsing} \n" \
-                     "- ## Reasoning\n" \
-                     "{reason}\n" \
-                     "- ## Dialog Systems\n" \
-                     "{dialog}\n" \
-                     "- ## Text Classification\n" \
-                     "{textcls}\n" \
-                     "- ## Text Matching\n" \
-                     "{textmatch}\n" \
-                     "- ## Topic Modeling\n" \
-                     "{topic}\n" \
-                     "- ## Sentiment Analysis\n" \
-                     "{sa}\n"
-
         def __str__(self):
             output = ""
             if self.type != "root" and self.cnt == 0:
@@ -271,10 +246,10 @@ class Container:
                 app_super_content += app_node_content
 
             table_content += app_super_content
-        output = "## [Content: ({})](#content)\n\n" \
+        output = "## [Content](#content)\n\n" \
                  "<table>\n" \
                  "{}" \
-                 "</table>\n".format(self.tree.cnt, table_content)
+                 "</table>\n".format(table_content)
         return output
 
     def save(self):

@@ -1,7 +1,7 @@
 # graph4nlp_literature
 This repo is to provide a list of literature regarding Deep Learning on Graphs for NLP
 
-## [Content: (193)](#content)
+## [Content](#content)
 
 <table>
 <tr><td colspan="2"><a href="#knowledge-graphknowledge-base">1. Knowledge Graph/Knowledge Base: (32)</a></td></tr> 
@@ -104,37 +104,37 @@ This repo is to provide a list of literature regarding Deep Learning on Graphs f
 			[[ACL-20] ReInceptionE: Relation-Aware Inception Network with Joint Local-Global Structural Information for Knowledge Graph Embedding](https://www.aclweb.org/anthology/2020.acl-main.526.pdf) 
 
  		* #### Year: 2019
-			[[AAAI-19] Logic Attention Based Neighborhood Aggregation for Inductive Knowledge Graph Embedding](https://ojs.aaai.org//index.php/AAAI/article/view/4698) 
+			[[IJCAI-19] A Vectorized Relational Graph Convolutional Network for Multi-Relational Network Alignment](https://www.ijcai.org/Proceedings/2019/0574.pdf) 
 
- 			[[IJCAI-19] A Vectorized Relational Graph Convolutional Network for Multi-Relational Network Alignment](https://www.ijcai.org/Proceedings/2019/0574.pdf) 
+ 			[[AAAI-19] Logic Attention Based Neighborhood Aggregation for Inductive Knowledge Graph Embedding](https://ojs.aaai.org//index.php/AAAI/article/view/4698) 
 
  			[[ACL-19] Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs](https://www.aclweb.org/anthology/P19-1466.pdf) 
 
  			[[ACL-19] A2N: Attending to Neighbors for Knowledge Graph Inference](https://www.aclweb.org/anthology/P19-1431.pdf) 
 
- 			[[EMNLP-19] CaRe: Open Knowledge Graph Embeddings](https://www.aclweb.org/anthology/D19-1036.pdf) 
-
  			[[NAACL-19] Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks](https://www.aclweb.org/anthology/N19-1306.pdf) 
+
+ 			[[EMNLP-19] CaRe: Open Knowledge Graph Embeddings](https://www.aclweb.org/anthology/D19-1036.pdf) 
 
  	 - ### [Knowledge Base Completion](#content)
 		* #### Year: 2020
-			[[ICML-20] Inductive Relation Prediction by Subgraph Reasoning](http://proceedings.mlr.press/v119/teru20a/teru20a.pdf) 
+			[[ICLR-20] DYNAMICALLY PRUNED MESSAGE PASSING NETWORKS FOR LARGE-SCALE KNOWLEDGE GRAPH
+REASONING](https://openreview.net/pdf?id=rkeuAhVKvB) 
 
  			[[ICML-20] Inductive Relation Prediction by Subgraph Reasoning](http://proceedings.mlr.press/v119/teru20a/teru20a.pdf) 
+
+ 			[[ICML-20] Inductive Relation Prediction by Subgraph Reasoning](http://proceedings.mlr.press/v119/teru20a/teru20a.pdf) 
+
+ 			[[EMNLP-20] TeMP: Temporal Message Passing for Temporal Knowledge Graph Completion](https://www.aclweb.org/anthology/2020.emnlp-main.462.pdf) 
 
  			[[AAAI-20] Commonsense Knowledge Base Completion with Structural and Semantic Context](https://ojs.aaai.org/index.php/AAAI/article/download/5684/5540) 
 
  			[[AAAI-20] Relational Graph Neural Network with Hierarchical Attention for Knowledge Graph Completion](https://ojs.aaai.org//index.php/AAAI/article/view/6508) 
 
- 			[[EMNLP-20] TeMP: Temporal Message Passing for Temporal Knowledge Graph Completion](https://www.aclweb.org/anthology/2020.emnlp-main.462.pdf) 
-
- 			[[ICLR-20] DYNAMICALLY PRUNED MESSAGE PASSING NETWORKS FOR LARGE-SCALE KNOWLEDGE GRAPH
-REASONING](https://openreview.net/pdf?id=rkeuAhVKvB) 
-
  		* #### Year: 2019
-			[[AAAI-19] End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://ojs.aaai.org//index.php/AAAI/article/view/4164) 
+			[[IJCAI-19] Robust Embedding with Multi-Level Structures for Link Prediction](https://www.ijcai.org/Proceedings/2019/0728.pdf) 
 
- 			[[IJCAI-19] Robust Embedding with Multi-Level Structures for Link Prediction](https://www.ijcai.org/Proceedings/2019/0728.pdf) 
+ 			[[AAAI-19] End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://ojs.aaai.org//index.php/AAAI/article/view/4164) 
 
  			[[ACL-19] Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs](https://www.aclweb.org/anthology/P19-1466.pdf) 
 
@@ -151,11 +151,11 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  	 - ### [Knowledge Graph Alignment](#content)
 		* #### Year: 2020
-			[[AAAI-20] Knowledge Graph Alignment Network with Gated Multi-Hop Neighborhood Aggregation](https://ojs.aaai.org//index.php/AAAI/article/view/5354) 
+			[[EMNLP-20] Knowledge Graph Alignment with Entity-Pair Embedding](https://www.aclweb.org/anthology/2020.emnlp-main.130.pdf) 
+
+ 			[[AAAI-20] Knowledge Graph Alignment Network with Gated Multi-Hop Neighborhood Aggregation](https://ojs.aaai.org//index.php/AAAI/article/view/5354) 
 
  			[[AAAI-20] Coordinated Reasoning for Cross-Lingual Knowledge Graph Alignment](https://ojs.aaai.org//index.php/AAAI/article/view/6476) 
-
- 			[[EMNLP-20] Knowledge Graph Alignment with Entity-Pair Embedding](https://www.aclweb.org/anthology/2020.emnlp-main.130.pdf) 
 
  		* #### Year: 2019
 			[[IJCAI-19] A Vectorized Relational Graph Convolutional Network for Multi-Relational Network Alignment](https://www.ijcai.org/Proceedings/2019/0574.pdf) 
@@ -185,6 +185,8 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  			[[ACL-19] A Neural Multi-digraph Model for Chinese NER with Gazetteers](https://www.aclweb.org/anthology/P19-1141.pdf) 
 
+ 			[[NAACL-19] A General Framework for Information Extraction using Dynamic Span Graphs](https://www.aclweb.org/anthology/N19-1308.pdf) 
+
  			[[EMNLP-19] Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network](https://www.aclweb.org/anthology/D19-1396/) 
 
  			[[EMNLP-19] A Lexicon-Based Graph Neural Network for Chinese NER](https://www.aclweb.org/anthology/D19-1096.pdf) 
@@ -192,8 +194,6 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
  			[[EMNLP-19] Fine-Grained Entity Typing via Hierarchical Multi Graph Convolutional Networks](https://www.aclweb.org/anthology/D19-1502.pdf) 
 
  			[[EMNLP-19] Fine-Grained Entity Typing via Hierarchical Multi Graph Convolutional Networks](https://www.aclweb.org/anthology/D19-1502.pdf) 
-
- 			[[NAACL-19] A General Framework for Information Extraction using Dynamic Span Graphs](https://www.aclweb.org/anthology/N19-1308.pdf) 
 
  	 - ### [Relation Extraction](#content)
 		* #### Year: 2020
@@ -218,13 +218,13 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  			[[ACL-19] Attention Guided Graph Convolutional Networks for Relation Extraction](https://www.aclweb.org/anthology/P19-1024.pdf) 
 
- 			[[EMNLP-19] Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://www.aclweb.org/anthology/D19-1498/) 
-
  			[[NAACL-19] GraphIE: A Graph-Based Framework for Information Extraction](https://www.aclweb.org/anthology/N19-1082/) 
 
  			[[NAACL-19] A General Framework for Information Extraction using Dynamic Span Graphs](https://www.aclweb.org/anthology/N19-1308.pdf) 
 
  			[[NAACL-19] Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks](https://www.aclweb.org/anthology/N19-1306.pdf) 
+
+ 			[[EMNLP-19] Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://www.aclweb.org/anthology/D19-1498/) 
 
  		* #### Year: 2018
 			[[EMNLP-18] Graph Convolution over Pruned Dependency Trees Improves Relation Extraction](https://www.aclweb.org/anthology/D18-1244.pdf) 
@@ -279,46 +279,44 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
  		* #### Year: 2020
 			[[COLING-20] Knowledge Graph Enhanced Neural Machine Translation via Multi-task Learning on Sub-entity Granularity](https://www.aclweb.org/anthology/2020.coling-main.397/) 
 
- 			[[TACL-20] AMR-To-Text Generation with Graph Transformer](https://www.aclweb.org/anthology/2020.tacl-1.2.pdf) 
-
- 			[[AAAI-20] Graph Transformer for Graph-to-Sequence Learning](https://ojs.aaai.org//index.php/AAAI/article/view/6243) 
-
  			[[IJCAI-20] Knowledge Graphs Enhanced Neural Machine Translation](https://www.ijcai.org/Proceedings/2020/559) 
+
+ 			[[TACL-20] AMR-To-Text Generation with Graph Transformer](https://www.aclweb.org/anthology/2020.tacl-1.2.pdf) 
 
  			[[ACL-20] Heterogeneous Graph Transformer for Graph-to-Sequence Learning](https://www.aclweb.org/anthology/2020.acl-main.640.pdf) 
 
  			[[ACL-20] A Novel Graph-based Multi-modal Fusion Encoder for Neural Machine Translation](https://www.aclweb.org/anthology/2020.acl-main.273/) 
 
+ 			[[AAAI-20] Graph Transformer for Graph-to-Sequence Learning](https://ojs.aaai.org//index.php/AAAI/article/view/6243) 
+
  		* #### Year: 2019
 			[[ACL-19] Lattice-Based Transformer Encoder for Neural Machine Translation](https://www.aclweb.org/anthology/P19-1298/) 
+
+ 			[[NAACL-19] Text Generation from Knowledge Graphs with Graph Transformers](https://www.aclweb.org/anthology/N19-1238/) 
 
  			[[TACL-19] Semantic neural machine translation using AMR](https://www.aclweb.org/anthology/Q19-1002.pdf) 
 
  			[[TACL-19] Densely Connected Graph Convolutional Networks for Graph-to-Sequence Learning](https://www.aclweb.org/anthology/Q19-1019/) 
 
- 			[[NAACL-19] Text Generation from Knowledge Graphs with Graph Transformers](https://www.aclweb.org/anthology/N19-1238/) 
-
  		* #### Year: 2018
 			[[AAAI-18] Graph Based Translation Memory for Neural Machine Translation](https://ojs.aaai.org/index.php/AAAI/article/view/4716) 
 
- 			[[ACL-18] Graph-to-Sequence Learning using Gated Graph Neural Networks](https://www.aclweb.org/anthology/P18-1026/) 
-
  			[[NAACL-18] Exploiting Semantics in Neural Machine Translation with Graph Convolutional Networks](https://www.aclweb.org/anthology/N18-2078/) 
 
- 		* #### Year: 2017
-			[[EACL-17] Context-Aware Graph Segmentation for Graph-Based Translation](https://www.aclweb.org/anthology/E17-2095.pdf) 
+ 			[[ACL-18] Graph-to-Sequence Learning using Gated Graph Neural Networks](https://www.aclweb.org/anthology/P18-1026/) 
 
- 			[[EMNLP-17] Graph Convolutional Encoders for Syntax-aware Neural Machine Translation](https://www.aclweb.org/anthology/D17-1209v2.pdf) 
+ 		* #### Year: 2017
+			[[EMNLP-17] Graph Convolutional Encoders for Syntax-aware Neural Machine Translation](https://www.aclweb.org/anthology/D17-1209v2.pdf) 
 
  			[[EMNLP-17] Neural Machine Translation with Source-Side Latent Graph Parsing](https://www.aclweb.org/anthology/D17-1012/) 
+
+ 			[[EACL-17] Context-Aware Graph Segmentation for Graph-Based Translation](https://www.aclweb.org/anthology/E17-2095.pdf) 
 
  	 - ### [Summarization](#content)
 		* #### Year: 2020
 			[[COLING-20] Improving Abstractive Dialogue Summarization with Graph Structures and Topic Words](https://www.aclweb.org/anthology/2020.coling-main.39/) 
 
  			[[COLING-20] Enhancing Extractive Text Summarization with Topic-Aware Graph Neural Networks](https://www.aclweb.org/anthology/2020.coling-main.468.pdf) 
-
- 			[[AAAI-20] SemSUM: Semantic Dependency Guided Neural Abstractive Summarization](https://ojs.aaai.org//index.php/AAAI/article/view/6312) 
 
  			[[EMNLP-20] Neural Extractive Summarization with Hierarchical Attentive Heterogeneous Graph Network](https://www.aclweb.org/anthology/2020.emnlp-main.295/) 
 
@@ -334,13 +332,15 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  			[[ACL-20] Heterogeneous Graph Neural Networks for Extractive Document Summarization](https://www.aclweb.org/anthology/2020.acl-main.553.pdf) 
 
+ 			[[AAAI-20] SemSUM: Semantic Dependency Guided Neural Abstractive Summarization](https://ojs.aaai.org//index.php/AAAI/article/view/6312) 
+
  		* #### Year: 2018
 			[[COLING-18] Abstract Meaning Representation for Multi-Document Summarization](https://www.aclweb.org/anthology/C18-1101.pdf) 
 
  		* #### Year: 2017
-			[[COLING-17] Graph-based Neural Multi-Document Summarization](https://www.aclweb.org/anthology/K17-1045/) 
+			[[ACL-17] Abstractive document summarization with a graph-based attentional neural model](https://www.aclweb.org/anthology/P17-1108/) 
 
- 			[[ACL-17] Abstractive document summarization with a graph-based attentional neural model](https://www.aclweb.org/anthology/P17-1108/) 
+ 			[[COLING-17] Graph-based Neural Multi-Document Summarization](https://www.aclweb.org/anthology/K17-1045/) 
 
  	 - ### [Code Summarization](#content)
 		* #### Year: 2020
@@ -365,15 +365,13 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 		* #### Year: 2020
 			[[COLING-20] Generalized Shortest-Paths Encoders for AMR-to-Text Generation](https://www.aclweb.org/anthology/2020.coling-main.181.pdf) 
 
- 			[[TACL-20] AMR-To-Text Generation with Graph Transformer](https://www.aclweb.org/anthology/2020.tacl-1.2.pdf) 
+ 			[[IJCAI-20] Better AMR-To-Text Generation with Graph Structure Reconstruction](https://www.ijcai.org/Proceedings/2020/0542.pdf) 
 
- 			[[AAAI-20] Graph Transformer for Graph-to-Sequence Learning](https://ojs.aaai.org//index.php/AAAI/article/view/6243) 
+ 			[[TACL-20] AMR-To-Text Generation with Graph Transformer](https://www.aclweb.org/anthology/2020.tacl-1.2.pdf) 
 
  			[[EMNLP-20] Online Back-Parsing for AMR-to-Text Generation](https://www.aclweb.org/anthology/2020.emnlp-main.92/) 
 
  			[[EMNLP-20] Lightweight, Dynamic Graph Convolutional Networks for AMR-to-Text Generation](https://www.aclweb.org/anthology/2020.emnlp-main.169/) 
-
- 			[[IJCAI-20] Better AMR-To-Text Generation with Graph Structure Reconstruction](https://www.ijcai.org/Proceedings/2020/0542.pdf) 
 
  			[[ACL-20] Heterogeneous Graph Transformer for Graph-to-Sequence Learning](https://www.aclweb.org/anthology/2020.acl-main.640.pdf) 
 
@@ -381,16 +379,18 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  			[[ACL-20] Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks](https://www.aclweb.org/anthology/2020.acl-main.67/) 
 
+ 			[[AAAI-20] Graph Transformer for Graph-to-Sequence Learning](https://ojs.aaai.org//index.php/AAAI/article/view/6243) 
+
  		* #### Year: 2019
 			[[ACL-19] Modeling Graph Structure in Transformer for Better AMR-to-Text Generation](https://www.aclweb.org/anthology/D19-1548/) 
+
+ 			[[NAACL-19] Structural Neural Encoders for AMR-to-text Generation](https://www.aclweb.org/anthology/N19-1366/) 
+
+ 			[[EMNLP-19] Enhancing AMR-to-Text Generation with Dual Graph Representations](https://www.aclweb.org/anthology/D19-1314/) 
 
  			[[TACL-19] Semantic neural machine translation using AMR](https://www.aclweb.org/anthology/Q19-1002.pdf) 
 
  			[[TACL-19] Densely Connected Graph Convolutional Networks for Graph-to-Sequence Learning](https://www.aclweb.org/anthology/Q19-1019/) 
-
- 			[[EMNLP-19] Enhancing AMR-to-Text Generation with Dual Graph Representations](https://www.aclweb.org/anthology/D19-1314/) 
-
- 			[[NAACL-19] Structural Neural Encoders for AMR-to-text Generation](https://www.aclweb.org/anthology/N19-1366/) 
 
  		* #### Year: 2018
 			[[ACL-18] Graph-to-Sequence Learning using Gated Graph Neural Networks](https://www.aclweb.org/anthology/P18-1026/) 
@@ -409,13 +409,13 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
  - ## [Question Answering](#content)
 	 - ### [Machine Reading Comprehension](#content)
 		* #### Year: 2020
-			[[EMNLP-20] Hierarchical Graph Network for Multi-hop Question Answering](https://www.aclweb.org/anthology/2020.emnlp-main.710/) 
-
- 			[[EMNLP-20] SRLGRN: Semantic Role Labeling Graph Reasoning Network](https://www.aclweb.org/anthology/2020.emnlp-main.714.pdf) 
-
- 			[[IJCAI-20] GraphFlow: Exploiting Conversation Flow with Graph Neural Networks for Conversational Machine Comprehension](https://www.ijcai.org/Proceedings/2020/171) 
+			[[IJCAI-20] GraphFlow: Exploiting Conversation Flow with Graph Neural Networks for Conversational Machine Comprehension](https://www.ijcai.org/Proceedings/2020/171) 
 
  			[[IJCAI-20] Multi-hop Reading Comprehension across Documents with Path-based Graph Convolutional Network](https://www.ijcai.org/Proceedings/2020/540) 
+
+ 			[[EMNLP-20] Hierarchical Graph Network for Multi-hop Question Answering](https://www.aclweb.org/anthology/2020.emnlp-main.710/) 
+
+ 			[[EMNLP-20] SRLGRN: Semantic Role Labeling Graph Reasoning Network](https://www.aclweb.org/anthology/2020.emnlp-main.714.pdf) 
 
  			[[ACL-20] Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings](https://www.aclweb.org/anthology/2020.acl-main.412/) 
 
@@ -430,11 +430,11 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  			[[ACL-19] Cognitive Graph for Multi-Hop Reading Comprehension at Scale](https://www.aclweb.org/anthology/P19-1259/) 
 
- 			[[EMNLP-19] NumNet: Machine Reading Comprehension with Numerical Reasoning](https://www.aclweb.org/anthology/D19-1251/) 
-
  			[[NAACL-19] BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering](https://www.aclweb.org/anthology/N19-1032/) 
 
  			[[NAACL-19] Question Answering by Reasoning Across Documents with Graph Convolutional Networks](https://www.aclweb.org/anthology/N19-1240/) 
+
+ 			[[EMNLP-19] NumNet: Machine Reading Comprehension with Numerical Reasoning](https://www.aclweb.org/anthology/D19-1251/) 
 
  	 - ### [Knowledge Base Question Answering](#content)
 		* #### Year: 2020
@@ -484,9 +484,9 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  	 - ### [Semantic Parsing](#content)
 		* #### Year: 2020
-			[[AAAI-20] Graph-Based Transformer with Cross-Candidate Verification for Semantic Parsing](https://ojs.aaai.org//index.php/AAAI/article/view/6408) 
+			[[EMNLP-20] Graph-to-Tree Neural Networksfor Learning Structured Input-Output Translationwith Applications to Semantic Parsing and Math Word Problem](https://www.aclweb.org/anthology/2020.findings-emnlp.255/) 
 
- 			[[EMNLP-20] Graph-to-Tree Neural Networksfor Learning Structured Input-Output Translationwith Applications to Semantic Parsing and Math Word Problem](https://www.aclweb.org/anthology/2020.findings-emnlp.255/) 
+ 			[[AAAI-20] Graph-Based Transformer with Cross-Candidate Verification for Semantic Parsing](https://ojs.aaai.org//index.php/AAAI/article/view/6408) 
 
  		* #### Year: 2019
 			[[ACL-19] Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing](https://www.aclweb.org/anthology/P19-1448/) 
@@ -512,15 +512,15 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
 
  	 - ### [Math Word Problem](#content)
 		* #### Year: 2020
-			[[EMNLP-20] Graph-to-Tree Neural Networksfor Learning Structured Input-Output Translationwith Applications to Semantic Parsing and Math Word Problem](https://www.aclweb.org/anthology/2020.findings-emnlp.255/) 
+			[[ICLR-20] Mathematical Reasoning in Latent Space](https://openreview.net/forum?id=Ske31kBtPr) 
+
+ 			[[EMNLP-20] Graph-to-Tree Neural Networksfor Learning Structured Input-Output Translationwith Applications to Semantic Parsing and Math Word Problem](https://www.aclweb.org/anthology/2020.findings-emnlp.255/) 
 
  			[[ACL-20] A Knowledge-Aware Sequence-to-Tree Network for Math Word Problem Solving](https://www.aclweb.org/anthology/2020.emnlp-main.579/) 
 
  			[[ACL-20] Graph-to-Tree Learning for Solving Math Word Problems](https://www.aclweb.org/anthology/2020.acl-main.362/) 
 
  			[[ACL-20] Premise Selection in Natural Language Mathematical Texts](https://www.aclweb.org/anthology/2020.acl-main.657/) 
-
- 			[[ICLR-20] Mathematical Reasoning in Latent Space](https://openreview.net/forum?id=Ske31kBtPr) 
 
  	 - ### [Commonsense Reasoning](#content)
 		* #### Year: 2018
@@ -545,9 +545,9 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
  - ## [Text Classification](#content)
 	 - ### [Text Classification](#content)
 		* #### Year: 2020
-			[[AAAI-20] Tensor Graph Convolutional Networks for Text Classification](https://ojs.aaai.org//index.php/AAAI/article/view/6359) 
+			[[ACL-20] Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks](https://www.aclweb.org/anthology/2020.acl-main.31.pdf) 
 
- 			[[ACL-20] Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks](https://www.aclweb.org/anthology/2020.acl-main.31.pdf) 
+ 			[[AAAI-20] Tensor Graph Convolutional Networks for Text Classification](https://ojs.aaai.org//index.php/AAAI/article/view/6359) 
 
  		* #### Year: 2019
 			[[AAAI-19] Graph Convolutional Networks for Text Classification](https://ojs.aaai.org//index.php/AAAI/article/view/4725) 
@@ -566,9 +566,9 @@ REASONING](https://openreview.net/pdf?id=rkeuAhVKvB)
  - ## [Topic Modeling](#content)
 	 - ### [Topic Modeling](#content)
 		* #### Year: 2020
-			[[WWW-20] Graph Attention Topic Modeling Network](http://doi.org/10.1145/3366423.3380102) 
+			[[KDD-20] Graph Structural-topic Neural Network](http://doi.org/10.1145/3394486.3403150) 
 
- 			[[KDD-20] Graph Structural-topic Neural Network](http://doi.org/10.1145/3394486.3403150) 
+ 			[[WWW-20] Graph Attention Topic Modeling Network](http://doi.org/10.1145/3366423.3380102) 
 
  			[[EMNLP-20] Neural Topic Modeling by Incorporating Document Relationship Graph](https://www.aclweb.org/anthology/2020.emnlp-main.310) 
 
